@@ -1,0 +1,13 @@
+{
+  "groups_by_leaf": {
+    "BinRushed/BinRushed1-Corrected": 50,
+    "BinRushed/BinRushed2": 47,
+    "BinRushed/BinRushed3": 47,
+    "BinRushed/BinRushed4": 51,
+    "MESSIDOR": 460
+  },
+  "incomplete_groups": 50,
+  "complete_groups": 655,
+  "manifest_sha256": "fbaf4f80f1c92b54c1e14f1ddcb9030cda87be7b201b43990723e5dec46b97be",
+  "converter_sha256": "d7fb6f5982e244021f19d58e95d9825f138b351ea3bc0490b3905f77f4fff431"
+}

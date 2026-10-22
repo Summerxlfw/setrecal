@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+
+# External inputs and outputs (not redistributed)
+data/
+weights/
+external/
+runs/
+evaluations/
+
+# OS
+.DS_Store

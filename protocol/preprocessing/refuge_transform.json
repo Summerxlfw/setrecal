@@ -1,0 +1,25 @@
+{
+  "image_dtype": "float32",
+  "image_resize": "bilinear",
+  "mask_dtype": "uint8",
+  "mask_resize": "nearest",
+  "normalization": "divide_by_255",
+  "output_size": 256,
+  "rater_ids": [
+    "rater_1",
+    "rater_2",
+    "rater_3",
+    "rater_4",
+    "rater_5",
+    "rater_6",
+    "rater_7"
+  ],
+  "schema": "refuge_multirater_cup_transform/1",
+  "source_audit_receipt_sha256": "627a79c41b174536e0bb14a6ae276fe4828c63d6acbfec97dbd3b6889479bb5f",
+  "source_content_ledger_sha256": "7553bee23e445e066c9ac5471c02f433a323af9b63fa9be1b88ae12b57987399",
+  "spatial_transform": "full_image_resize_no_crop",
+  "split_source": "official_archive_directories",
+  "task_id": "optic_cup",
+  "test_opened": false,
+  "training_performed": false
+}

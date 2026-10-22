@@ -1,0 +1,36 @@
+{
+  "change_scope": "Released metadata, source grouping and reader instructions; method computations retained.",
+  "date": "2026-10-01",
+  "default_protocol": "protocol",
+  "initial_ablation_protocol": "protocol_initial",
+  "method_name": "SetRecal",
+  "preserved_method_files": {
+    "adapter.py": "405875d3cc952539a9e3ddc15a13f427362ce244aa0f5cd213e97f15585bc5d8",
+    "augmentation.py": "54d7986ba196f50b1a219d1c1e0e2f85308205f39842466d31e8f31ab5a52914",
+    "core.py": "cea8049b37944247fcaea5fdcd5001dda523e05af2aaa7c88d7e8a112b281aef",
+    "indexed_loss.py": "d10ce34ef022268a3d9cc59d0fd5cfc3ad4c250bbd373b0b632c254082fd8abb",
+    "metrics.py": "2bffb04c9b5339da6cf93145ebf068cd6c7fc36792f3a71ddecc6acfa0847ce4"
+  },
+  "riga": [
+    {
+      "initial_state_sha256": "75d11d0f7539193da1596341d4caf70e0fdaca80bba2b41218fe1dac102d3645",
+      "source_protocol_sha256": "3e18ad1633652227734c68d015100c0bc132e5902c817fce56a41aa5c72178d2",
+      "stage1_checkpoint_sha256": "3e819092b9ef3660d0577408ab250d7562e66c02a001f1ee17fd4f41a79beb6f",
+      "task": "riga_cup"
+    },
+    {
+      "initial_state_sha256": "88c150a663fe5360d143ee409077de027f5c720eb4c847ff2e6b7cb717f76f79",
+      "source_protocol_sha256": "a26deb3347028a6df81ab70d6a8585b5dcae0083e6ab6f691f0dba9c7f01f28b",
+      "stage1_checkpoint_sha256": "d8bd1272f0f419825607fc8c87e912754595d0be8939f5716edaed58a43ce936",
+      "task": "riga_disc"
+    }
+  ],
+  "source_grouping": {
+    "reduction": "mean within raw-image SHA-256, then mean across sources",
+    "selection": "minimum source-macro GED; earliest tie",
+    "source_overlap": 0,
+    "train_views": 524,
+    "validation_sources": 126,
+    "validation_views": 127
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-01",
+  "python": "3.12.14",
+  "packages": {
+    "torch": "2.5.1",
+    "numpy": "1.26.4",
+    "torchvision": "0.20.1",
+    "Pillow": "10.4.0"
+  },
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "device": "cpu",
+  "tests_passed": 21,
+  "scope": "Synthetic software checks and metadata inspection",
+  "study_rerun": false,
+  "preprocessing_reexecuted": false,
+  "actual_upstream_backbone_loaded": false
+}

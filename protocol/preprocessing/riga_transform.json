@@ -1,0 +1,28 @@
+{
+  "image_dtype": "float32",
+  "image_resize": "bilinear",
+  "mask_dtype": "uint8",
+  "mask_resize": "nearest",
+  "normalization": "divide_by_255",
+  "output_size": 256,
+  "outside_padding": "constant_zero",
+  "rater_ids": [
+    "rater_1",
+    "rater_2",
+    "rater_3",
+    "rater_4",
+    "rater_5",
+    "rater_6"
+  ],
+  "roi_center_source": "mean_of_six_disc_centroids",
+  "roi_conditioned": true,
+  "roi_size": 512,
+  "schema": "riga_q2_development_transform/1",
+  "source_mask_manifest_sha256": "fbaf4f80f1c92b54c1e14f1ddcb9030cda87be7b201b43990723e5dec46b97be",
+  "split_sha256": "9be431aa42a663e6f0f8d152758fe257726a169aea026773eaaab70f5c158107",
+  "tasks": [
+    "optic_disc",
+    "optic_cup"
+  ],
+  "test_opened": false
+}

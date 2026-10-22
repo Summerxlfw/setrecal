@@ -1,0 +1,35 @@
+{
+  "bindings": {
+    "riga_cup": "CW, RW, SEED, EXPECTED.stage1_checkpoint and CONTROLLED.self_only; remaining trainer defaults retained",
+    "riga_disc_refuge_npc": "SPECS task configuration and run_self_only.SELF_ONLY_SHA; rater count and selection scope follow the executed trainer rather than old summary labels"
+  },
+  "configuration_sha256": "191c5ad0646ad12da21197231024e47cd358eedb1306356ed59723b2de5a9ebf",
+  "current_riga_bindings": [
+    {
+      "initial_state_sha256": "75d11d0f7539193da1596341d4caf70e0fdaca80bba2b41218fe1dac102d3645",
+      "source_protocol_sha256": "3e18ad1633652227734c68d015100c0bc132e5902c817fce56a41aa5c72178d2",
+      "stage1_checkpoint_sha256": "3e819092b9ef3660d0577408ab250d7562e66c02a001f1ee17fd4f41a79beb6f",
+      "task": "riga_cup"
+    },
+    {
+      "initial_state_sha256": "88c150a663fe5360d143ee409077de027f5c720eb4c847ff2e6b7cb717f76f79",
+      "source_protocol_sha256": "a26deb3347028a6df81ab70d6a8585b5dcae0083e6ab6f691f0dba9c7f01f28b",
+      "stage1_checkpoint_sha256": "d8bd1272f0f419825607fc8c87e912754595d0be8939f5716edaed58a43ce936",
+      "task": "riga_disc"
+    }
+  ],
+  "sources": [
+    {
+      "path": "redevelopment/20260910_same_slot_controls/run_same_slot.py",
+      "sha256": "816e65f5b57824e54273d1219df3cd604c5005385288ca050bf06d1a43ce910b"
+    },
+    {
+      "path": "redevelopment/20260910_self_only_crossdata/run_self_only.py",
+      "sha256": "ad4d16281249c7005e4afb6e705f3d737a747d6d573e71b9998b365ded692595"
+    },
+    {
+      "path": "redevelopment/20260910_self_only_crossdata/SPECS.json",
+      "sha256": "b38f7f7691629415670e5d9430571a95add12a72ce594b6ed1c7f5eefec105f6"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "scope": "Existing project preprocessing scripts; imports and h5dump default adapted as listed. Not executed on real data in this release revision.",
+  "files": [
+    {
+      "file": "riga_q2_mask_converter.py",
+      "original_source": "shared/reliable_efficient_polyp_segmentation/scripts/riga_q2_mask_converter.py",
+      "original_sha256": "d7fb6f5982e244021f19d58e95d9825f138b351ea3bc0490b3905f77f4fff431",
+      "release_sha256": "d7fb6f5982e244021f19d58e95d9825f138b351ea3bc0490b3905f77f4fff431",
+      "adaptations": []
+    },
+    {
+      "file": "riga_q2_dev_cache.py",
+      "original_source": "shared/reliable_efficient_polyp_segmentation/scripts/riga_q2_dev_cache.py",
+      "original_sha256": "b8f5f4b360eaf41981d906df112ed9e0f83aaab48f28ffa00b08f0daadec2d53",
+      "release_sha256": "0ad2189853c19033d1ac4b37ea14fecbd47a1b8c887c3620eccaef4ff6ecbf89",
+      "adaptations": [
+        "Import manifest helpers from the installed setsup_recal package"
+      ]
+    },
+    {
+      "file": "refuge_multirater_dev_audit.py",
+      "original_source": "shared/reliable_efficient_polyp_segmentation/scripts/refuge_multirater_dev_audit.py",
+      "original_sha256": "f32fbc842286fe1f976d14d717f4f8336b018cd59a7e79e615829ef6f77df407",
+      "release_sha256": "f32fbc842286fe1f976d14d717f4f8336b018cd59a7e79e615829ef6f77df407",
+      "adaptations": []
+    },
+    {
+      "file": "refuge_multirater_cup_dev_cache.py",
+      "original_source": "shared/reliable_efficient_polyp_segmentation/scripts/refuge_multirater_cup_dev_cache.py",
+      "original_sha256": "5ef65ff11951ee57426d371f43990e8b97f86eef6e118fec2a63bc0d41f96d5d",
+      "release_sha256": "98454304257414754be80926d4c1c88f26a21cbed2cad38ff1dc98a8054b3a89",
+      "adaptations": [
+        "Import manifest helpers from the installed setsup_recal package"
+      ]
+    },
+    {
+      "file": "npc170_h5_admission.py",
+      "original_source": "shared/reliable_efficient_polyp_segmentation/scripts/npc170_h5_admission.py",
+      "original_sha256": "93c618c3eabf49bb37576c0182a2291f5dadca5a1a7694bd2a81dd566b5266fc",
+      "release_sha256": "4a575a89b642ac6101543d021123fbd4d0f94ae4b4400946212c47e4682b3bbf",
+      "adaptations": [
+        "Resolve h5dump from PATH instead of a machine-specific default"
+      ]
+    },
+    {
+      "file": "npc170_dev_cache.py",
+      "original_source": "shared/reliable_efficient_polyp_segmentation/scripts/npc170_dev_cache.py",
+      "original_sha256": "faf47b0dae33ec45e896d36f626db2ebb4878286438fa2446cc829bb93f49a1d",
+      "release_sha256": "1498c34349e5e86c859c42844d8d3b9d04e5038d20f186699c64086520cb58b0",
+      "adaptations": [
+        "Import manifest helpers from the installed setsup_recal package"
+      ]
+    }
+  ]
+}

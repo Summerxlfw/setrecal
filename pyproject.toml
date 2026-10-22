@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "setsup-recal"
+version = "1.2.0"
+description = "Set-summary losses and gated latent recalibration for multi-rater segmentation"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.5", "numpy>=1.26"]
+
+[tool.setuptools.packages.find]
+include = ["setsup_recal*"]
+
+[project.optional-dependencies]
+reproduction = ["torchvision", "Pillow", "scipy", "h5py", "opencv-python-headless"]
+
+[project.scripts]
+setsup-recal = "setsup_recal.reproduce:main"

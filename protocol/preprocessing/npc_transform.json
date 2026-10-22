@@ -1,0 +1,42 @@
+{
+  "empty_slice_policy": "retain_all",
+  "gpu_used": false,
+  "image_channels": [
+    "t1",
+    "t1c",
+    "t2"
+  ],
+  "image_dtype": "float32",
+  "image_resize": "scipy_ndimage_zoom_order_0",
+  "mask_dtype": "uint8",
+  "mask_resize": "scipy_ndimage_zoom_order_0",
+  "normalization": "none_archive_float32_preserved",
+  "official_dpersona": {
+    "commit": "70689229044dabc006743f439540473df1551abe",
+    "file_sha256": {
+      "D-Persona/code/configs/config.py": "db98b06d58b9a252a65b331d600eb3f17704f4cca97d49c97c24539ea46d19f5",
+      "D-Persona/code/dataloader/dataset.py": "e2badd62e0ea080c829056ba036b9711a7a2bdcdac817119541cb4e7f785bb90",
+      "D-Persona/code/evaluate_dp_npc.py": "25f0cf9eb302b0750e5c03a54d79cc6036c8b323a6b5bbebcd7b60f5fa75f928"
+    },
+    "root": "external/D-Persona",
+    "verified": true
+  },
+  "output_size": 128,
+  "rater_ids": [
+    "rater_a1",
+    "rater_a2",
+    "rater_a3",
+    "rater_a4"
+  ],
+  "schema": "npc170_official_dpersona_transform/1",
+  "source_admission_receipt": "provenance/npc170_dev_h5_admission_20260903.json",
+  "source_admission_receipt_sha256": "4b855dd39bfd831c19dbfda37f8dae8ab0d6894e16b6379b81b54adc41bfa696",
+  "source_tree_sha256": "96872f19661e28f6ce99e1b9086f0aefc2d0fac77cf23f95bb77f10365020574",
+  "spacing_axis_semantics": "release_unspecified",
+  "spacing_role": "archive_native_metadata_not_used_for_ged_or_dice",
+  "spatial_transform": "full_slice_resize_no_crop_no_3d_resampling",
+  "task_id": "npc_gtvp",
+  "test_opened": false,
+  "training_performed": false,
+  "validation_representation": "all_volume_slices_in_original_order"
+}

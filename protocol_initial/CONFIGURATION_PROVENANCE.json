@@ -1,0 +1,21 @@
+{
+  "configuration_sha256": "c345064b676e1ae6f01028d5827ecc673148f14727a6ba8e32df637c917e039d",
+  "sources": [
+    {
+      "path": "redevelopment/20260910_same_slot_controls/run_same_slot.py",
+      "sha256": "816e65f5b57824e54273d1219df3cd604c5005385288ca050bf06d1a43ce910b"
+    },
+    {
+      "path": "redevelopment/20260910_self_only_crossdata/run_self_only.py",
+      "sha256": "ad4d16281249c7005e4afb6e705f3d737a747d6d573e71b9998b365ded692595"
+    },
+    {
+      "path": "redevelopment/20260910_self_only_crossdata/SPECS.json",
+      "sha256": "b38f7f7691629415670e5d9430571a95add12a72ce594b6ed1c7f5eefec105f6"
+    }
+  ],
+  "bindings": {
+    "riga_cup": "CW, RW, SEED, EXPECTED.stage1_checkpoint and CONTROLLED.self_only; remaining trainer defaults retained",
+    "riga_disc_refuge_npc": "SPECS task configuration and run_self_only.SELF_ONLY_SHA; rater count and selection scope follow the executed trainer rather than old summary labels"
+  }
+}

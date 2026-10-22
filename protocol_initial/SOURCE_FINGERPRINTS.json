@@ -1,0 +1,178 @@
+{
+  "scope": "Training/development metadata with original record order and fingerprints preserved. No image arrays included.",
+  "manifests": [
+    {
+      "file": "manifests/riga_cup_train.json",
+      "source_hint": "riga_dev_cache_v1/manifests/optic_cup_train.json",
+      "original_sha256": "72e9107c532307af24fe72290977a1b4a2ec02c2e7621a83fec6bc8a86982f15",
+      "portable_sha256": "0d4c973ee8869c2b578e37a9578e78743f318ede452739bbfa3b19f897b9b63c",
+      "records": 524,
+      "patients": 524,
+      "changes": [
+        {
+          "field": "cache_root",
+          "from": "../cache",
+          "to": "../cache/riga"
+        }
+      ],
+      "records_byte_semantics_and_order_preserved": true,
+      "all_source_cache_transform_sha_values_preserved": true
+    },
+    {
+      "file": "manifests/riga_cup_validation.json",
+      "source_hint": "riga_dev_cache_v1/manifests/optic_cup_validation.json",
+      "original_sha256": "d7bf19d7fba2f281de6885ea38fa5b1251a1df49ff22f7e80a47b835317858f2",
+      "portable_sha256": "daf82de30517f5faaa81a395cd682218bbdd9d474c380b9edeff040823495153",
+      "records": 131,
+      "patients": 131,
+      "changes": [
+        {
+          "field": "cache_root",
+          "from": "../cache",
+          "to": "../cache/riga"
+        }
+      ],
+      "records_byte_semantics_and_order_preserved": true,
+      "all_source_cache_transform_sha_values_preserved": true
+    },
+    {
+      "file": "manifests/riga_disc_train.json",
+      "source_hint": "riga_dev_cache_v1/manifests/optic_disc_train.json",
+      "original_sha256": "5b627956430a5143b501e75081ae88e8cf4c8d727a06f08ecc0f53d1174dce31",
+      "portable_sha256": "e3b77017dadbb9a27c2cb785fddb2b6b86504d1a24c3414da54d138189b296c7",
+      "records": 524,
+      "patients": 524,
+      "changes": [
+        {
+          "field": "cache_root",
+          "from": "../cache",
+          "to": "../cache/riga"
+        }
+      ],
+      "records_byte_semantics_and_order_preserved": true,
+      "all_source_cache_transform_sha_values_preserved": true
+    },
+    {
+      "file": "manifests/riga_disc_validation.json",
+      "source_hint": "riga_dev_cache_v1/manifests/optic_disc_validation.json",
+      "original_sha256": "86c08861ada39eaa6864a440cce1c7dac66e4d35ac423da1405d14f04e550670",
+      "portable_sha256": "e87d4d78662dd16ea5eb9b581ab2b3e5b72bc840c7585836d4cabfcc5fc9e527",
+      "records": 131,
+      "patients": 131,
+      "changes": [
+        {
+          "field": "cache_root",
+          "from": "../cache",
+          "to": "../cache/riga"
+        }
+      ],
+      "records_byte_semantics_and_order_preserved": true,
+      "all_source_cache_transform_sha_values_preserved": true
+    },
+    {
+      "file": "manifests/refuge_train.json",
+      "source_hint": "refuge_multirater_cup_dev_cache_v1/manifests/optic_cup_train.json",
+      "original_sha256": "0af68828b14c2f28bdce30fec62f2ae540ed2cefc33f87cee95bd4d1348492e6",
+      "portable_sha256": "9759c76c12fbc02d2b6d26638b38447805c374839f82b894a0a8895cb6db6386",
+      "records": 400,
+      "patients": 400,
+      "changes": [
+        {
+          "field": "cache_root",
+          "from": "../cache",
+          "to": "../cache/refuge"
+        }
+      ],
+      "records_byte_semantics_and_order_preserved": true,
+      "all_source_cache_transform_sha_values_preserved": true
+    },
+    {
+      "file": "manifests/refuge_validation.json",
+      "source_hint": "refuge_multirater_cup_dev_cache_v1/manifests/optic_cup_validation.json",
+      "original_sha256": "4bfd4f71d26064844414432f22cac241ec0d3810902cb87443442a6aae2ad46b",
+      "portable_sha256": "bf0b91616bc8e8f9b9379e9f0776b0316116b352e2bdfb972766c1ff592ffcaf",
+      "records": 400,
+      "patients": 400,
+      "changes": [
+        {
+          "field": "cache_root",
+          "from": "../cache",
+          "to": "../cache/refuge"
+        }
+      ],
+      "records_byte_semantics_and_order_preserved": true,
+      "all_source_cache_transform_sha_values_preserved": true
+    },
+    {
+      "file": "manifests/npc_train.json",
+      "source_hint": "npc170_multirater_dev_cache_v2/manifests/npc_gtvp_train.json",
+      "original_sha256": "531f8295c7bc9cc2d7c3de8611a007d5c3f1259a7fcac411be80220f17286ee4",
+      "portable_sha256": "2dcae8d286f1bbf1ff859addb24cede10ba5acd8639d304384ecc6659f341d90",
+      "records": 2405,
+      "patients": 100,
+      "changes": [
+        {
+          "field": "cache_root",
+          "from": "../cache",
+          "to": "../cache/npc"
+        }
+      ],
+      "records_byte_semantics_and_order_preserved": true,
+      "all_source_cache_transform_sha_values_preserved": true
+    },
+    {
+      "file": "manifests/npc_validation.json",
+      "source_hint": "npc170_multirater_dev_cache_v2/manifests/npc_gtvp_validation.json",
+      "original_sha256": "b24852d3596c57acac98e7baca31fa846573bbd66fa40e27a66ccf1d93ab08e2",
+      "portable_sha256": "8af17c5426b868b1bce0ed074b9fc3378728c545720485c810c0330a0ed70e8b",
+      "records": 487,
+      "patients": 20,
+      "changes": [
+        {
+          "field": "cache_root",
+          "from": "../cache",
+          "to": "../cache/npc"
+        }
+      ],
+      "records_byte_semantics_and_order_preserved": true,
+      "all_source_cache_transform_sha_values_preserved": true
+    }
+  ],
+  "preprocessing": [
+    {
+      "file": "preprocessing/riga_transform.json",
+      "source_hint": "evidence/data_protocol/riga_transform.json",
+      "original_sha256": "21131facb893505d7f0b50192f72e159679d6e87e7fd2510290481328f3b2b5d",
+      "portable_sha256": "21131facb893505d7f0b50192f72e159679d6e87e7fd2510290481328f3b2b5d",
+      "path_changes": [],
+      "original_embedded_sha_values_preserved": true
+    },
+    {
+      "file": "preprocessing/refuge_transform.json",
+      "source_hint": "evidence/data_protocol/refuge_transform.json",
+      "original_sha256": "8fba01cf7aeec2fa971273e9bb8ce336e04961d101d5c4696eefca386d245303",
+      "portable_sha256": "8fba01cf7aeec2fa971273e9bb8ce336e04961d101d5c4696eefca386d245303",
+      "path_changes": [],
+      "original_embedded_sha_values_preserved": true
+    },
+    {
+      "file": "preprocessing/npc_transform.json",
+      "source_hint": "evidence/data_protocol/npc_transform.json",
+      "original_sha256": "764edd970aa01d4114247e7ab25afa7e15341ff9c9c82d3e3f8c32ee3f8f5d3c",
+      "portable_sha256": "32dd4f17a0ddf613394ba7cbeac17f5412fc3d9ae3eef88c109cc32d0007ac45",
+      "path_changes": [
+        {
+          "field": "official_dpersona.root",
+          "source_role": "original workstation D-Persona snapshot path",
+          "to": "external/D-Persona"
+        },
+        {
+          "field": "source_admission_receipt",
+          "source_role": "original workstation admission receipt path",
+          "to": "provenance/npc170_dev_h5_admission_20260903.json"
+        }
+      ],
+      "original_embedded_sha_values_preserved": true
+    }
+  ]
+}

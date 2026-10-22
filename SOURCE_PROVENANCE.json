@@ -1,0 +1,688 @@
+{
+  "scope": "Study implementation symbols with recorded source fingerprints; imports and portable entry points adapted. The 2026-10-01 update adds source-macro selection to the released runner. Method equations, optimization and per-view metrics are retained.",
+  "symbols": [
+    {
+      "release_file": "indexed_loss.py",
+      "symbol": "generalized_dice_loss",
+      "original_source": "redevelopment/20260910_same_slot_controls/code/dg_drift_objective.py",
+      "original_file_sha256": "e78313f401ad622014dd73ea4a0b9bd7fd91f93010542db9078cdaf96ec497c0",
+      "source_lines": [
+        42,
+        61
+      ],
+      "extracted_symbol_sha256": "6aa9369d0732ed7a26569a2f8fd054e4f40054d2c965b8c8aa2fad15f4481523",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "core.py",
+      "symbol": "RG_PERSONA_ARMS",
+      "original_source": "redevelopment/20260910_same_slot_controls/code/rater_graph_persona.py",
+      "original_file_sha256": "5277eb4471df7f77371379cd0528a887fc995177f494c96e5a2cea54e1e90d5a",
+      "source_lines": [
+        12,
+        16
+      ],
+      "extracted_symbol_sha256": "835725420e4a4255e30336babf6e66f53a72f86f5e02917ad17dd82eb4cead85",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "core.py",
+      "symbol": "_validate_rater_set",
+      "original_source": "redevelopment/20260910_same_slot_controls/code/rater_graph_persona.py",
+      "original_file_sha256": "5277eb4471df7f77371379cd0528a887fc995177f494c96e5a2cea54e1e90d5a",
+      "source_lines": [
+        19,
+        25
+      ],
+      "extracted_symbol_sha256": "07c1737b38acb7eb0729f13c450aecb4e84e1c67cc563f25a1ad4ff656876d69",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "core.py",
+      "symbol": "pairwise_soft_iou",
+      "original_source": "redevelopment/20260910_same_slot_controls/code/rater_graph_persona.py",
+      "original_file_sha256": "5277eb4471df7f77371379cd0528a887fc995177f494c96e5a2cea54e1e90d5a",
+      "source_lines": [
+        28,
+        34
+      ],
+      "extracted_symbol_sha256": "c70134e80c54fd7c1181a8659e73ccf20ec850547476b928a52bb648d6a7ed00",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "core.py",
+      "symbol": "RaterRelationMixer",
+      "original_source": "redevelopment/20260910_same_slot_controls/code/rater_graph_persona.py",
+      "original_file_sha256": "5277eb4471df7f77371379cd0528a887fc995177f494c96e5a2cea54e1e90d5a",
+      "source_lines": [
+        49,
+        71
+      ],
+      "extracted_symbol_sha256": "e339830e549a71f2fd3af6fec9f7375477a0f1664456d45cf98457ea6fbf6f7c",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "core.py",
+      "symbol": "_soft_center_dice_loss",
+      "original_source": "redevelopment/20260910_same_slot_controls/code/rater_graph_persona.py",
+      "original_file_sha256": "5277eb4471df7f77371379cd0528a887fc995177f494c96e5a2cea54e1e90d5a",
+      "source_lines": [
+        74,
+        82
+      ],
+      "extracted_symbol_sha256": "444eb65492042ec7a2c8bda61dcef78112c277a0cc0c4b665ff6f962a7f1a3b1",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "core.py",
+      "symbol": "center_relation_calibration",
+      "original_source": "redevelopment/20260910_same_slot_controls/code/rater_graph_persona.py",
+      "original_file_sha256": "5277eb4471df7f77371379cd0528a887fc995177f494c96e5a2cea54e1e90d5a",
+      "source_lines": [
+        85,
+        106
+      ],
+      "extracted_symbol_sha256": "6fa49eb246c8c674e5d9fe40f0e8f92658ecddbd336a8706c5823e681cc08aea",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "core.py",
+      "symbol": "compute_stage2_objective",
+      "original_source": "redevelopment/20260910_same_slot_controls/code/rater_graph_persona.py",
+      "original_file_sha256": "5277eb4471df7f77371379cd0528a887fc995177f494c96e5a2cea54e1e90d5a",
+      "source_lines": [
+        109,
+        139
+      ],
+      "extracted_symbol_sha256": "5fe8eb44a1362f7196aa02b7450e037fd39940a40753a17ca9276718ac88fe28",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "controls.py",
+      "symbol": "TwoScalarMixer",
+      "original_source": "redevelopment/20260910_same_slot_controls/controls.py",
+      "original_file_sha256": "4d8627d90fa248156bc4bd73a0a52864ca2fec37e624217abc679aacf0751e18",
+      "source_lines": [
+        34,
+        55
+      ],
+      "extracted_symbol_sha256": "cc52a2426a9a46d3271248db2bb9312af216216f7b4a09c6f66ed7eaf9207364",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "controls.py",
+      "symbol": "_LinearGateMixer",
+      "original_source": "redevelopment/20260910_same_slot_controls/controls.py",
+      "original_file_sha256": "4d8627d90fa248156bc4bd73a0a52864ca2fec37e624217abc679aacf0751e18",
+      "source_lines": [
+        58,
+        71
+      ],
+      "extracted_symbol_sha256": "6ddcdf6acf5812da77b43569de869cdf8423db36a64ecd042bba66b8ebc43903",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "controls.py",
+      "symbol": "CenterOnlyMixer",
+      "original_source": "redevelopment/20260910_same_slot_controls/controls.py",
+      "original_file_sha256": "4d8627d90fa248156bc4bd73a0a52864ca2fec37e624217abc679aacf0751e18",
+      "source_lines": [
+        74,
+        82
+      ],
+      "extracted_symbol_sha256": "e6ca6140b9c4ae3beb4ff00dd1c6854212ff5477c3f78cddddc1e79f327313cf",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "controls.py",
+      "symbol": "DispersionOnlyMixer",
+      "original_source": "redevelopment/20260910_same_slot_controls/controls.py",
+      "original_file_sha256": "4d8627d90fa248156bc4bd73a0a52864ca2fec37e624217abc679aacf0751e18",
+      "source_lines": [
+        85,
+        102
+      ],
+      "extracted_symbol_sha256": "f204944d436698308409e214591cc1fd31d8925f73c9d4d2b1ea31a056be1888",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "adapter.py",
+      "symbol": "_draw_candidate_set",
+      "original_source": "redevelopment/20260910_same_slot_controls/code/dpersona_stage2_adapter.py",
+      "original_file_sha256": "00288bc6af18580b9f303cab9cf239b1532593ebb4bc64fce14b666852133b00",
+      "source_lines": [
+        11,
+        24
+      ],
+      "extracted_symbol_sha256": "c0dd3a5b66b0c4b5690da461d6e89657fc13852b334ded9fca81fddd3d0ec3bc",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "adapter.py",
+      "symbol": "DPersonaStage2Adapter",
+      "original_source": "redevelopment/20260910_same_slot_controls/code/dpersona_stage2_adapter.py",
+      "original_file_sha256": "00288bc6af18580b9f303cab9cf239b1532593ebb4bc64fce14b666852133b00",
+      "source_lines": [
+        27,
+        116
+      ],
+      "extracted_symbol_sha256": "7dc3f2957c38b64f69a48cd923d0f1ea0fb706d343f672569868d9c20a3e31c3",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "metrics.py",
+      "symbol": "METRIC_NAMES",
+      "original_source": "redevelopment/20260910_self_only_crossdata/code/lidc_probunet_s1.py",
+      "original_file_sha256": "5b31fbc98c10da528ebc25ada60dbf08a59c1200e34f7256d6420fc4a0a8c02b",
+      "source_lines": [
+        20,
+        28
+      ],
+      "extracted_symbol_sha256": "1153ffa4ad2ca9ef452c6d9182a268515048628ba193266fff4e285365460099",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "metrics.py",
+      "symbol": "_pairwise_iou_and_dice",
+      "original_source": "redevelopment/20260910_self_only_crossdata/code/lidc_probunet_s1.py",
+      "original_file_sha256": "5b31fbc98c10da528ebc25ada60dbf08a59c1200e34f7256d6420fc4a0a8c02b",
+      "source_lines": [
+        31,
+        40
+      ],
+      "extracted_symbol_sha256": "f31fdffcbec414b4c582ac391a1bd1f81cfb5e9f065578d1a08484e53e777f67",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "metrics.py",
+      "symbol": "_off_diagonal_mean",
+      "original_source": "redevelopment/20260910_self_only_crossdata/code/lidc_probunet_s1.py",
+      "original_file_sha256": "5b31fbc98c10da528ebc25ada60dbf08a59c1200e34f7256d6420fc4a0a8c02b",
+      "source_lines": [
+        43,
+        48
+      ],
+      "extracted_symbol_sha256": "2e3b1891f1d2437073b0494a31e4307d82b4467ec70ad351c47d594b5f68fc24",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "metrics.py",
+      "symbol": "_binary_dice",
+      "original_source": "redevelopment/20260910_self_only_crossdata/code/lidc_probunet_s1.py",
+      "original_file_sha256": "5b31fbc98c10da528ebc25ada60dbf08a59c1200e34f7256d6420fc4a0a8c02b",
+      "source_lines": [
+        51,
+        57
+      ],
+      "extracted_symbol_sha256": "3566f4f11e8e9f8577873ff700cde3be0b41eeb2e0b17397d9daff8e53f3aad0",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "metrics.py",
+      "symbol": "evaluate_distribution_batch",
+      "original_source": "redevelopment/20260910_self_only_crossdata/code/lidc_probunet_s1.py",
+      "original_file_sha256": "5b31fbc98c10da528ebc25ada60dbf08a59c1200e34f7256d6420fc4a0a8c02b",
+      "source_lines": [
+        60,
+        103
+      ],
+      "extracted_symbol_sha256": "e288dad55e754cc3f659e475c9aa4ee5156d1260a68983f6450793fe462c6b87",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "volume_metrics.py",
+      "symbol": "_metric_dict",
+      "original_source": "redevelopment/20260910_self_only_crossdata/code/npc170_volume_eval.py",
+      "original_file_sha256": "3cf0634a3b885d12269ce8b9c32e3dd99b907dfee8cdc7e6d6a106dfd9fddd4f",
+      "source_lines": [
+        13,
+        15
+      ],
+      "extracted_symbol_sha256": "b5b4ad6ebe6cf5b4570f343a5cd69fa2e2a9815f31135c1b0b868ff96fcf33e7",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "volume_metrics.py",
+      "symbol": "_aligned_rater_dice",
+      "original_source": "redevelopment/20260910_self_only_crossdata/code/npc170_volume_eval.py",
+      "original_file_sha256": "3cf0634a3b885d12269ce8b9c32e3dd99b907dfee8cdc7e6d6a106dfd9fddd4f",
+      "source_lines": [
+        18,
+        27
+      ],
+      "extracted_symbol_sha256": "5d4b1cd3b1ca8f5433fc0c60d66a7de43c9572e52e0fa7ab4255f5ed8381be32",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "volume_metrics.py",
+      "symbol": "aggregate_volume_slice_rows",
+      "original_source": "redevelopment/20260910_self_only_crossdata/code/npc170_volume_eval.py",
+      "original_file_sha256": "3cf0634a3b885d12269ce8b9c32e3dd99b907dfee8cdc7e6d6a106dfd9fddd4f",
+      "source_lines": [
+        30,
+        126
+      ],
+      "extracted_symbol_sha256": "c749f0149894b605d27818297634cd15ea2e71eac67d5e296eb5bb2d1880e7ed",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "data.py",
+      "symbol": "SCHEMA",
+      "original_source": "redevelopment/20260910_self_only_crossdata/code/multirater_dataset.py",
+      "original_file_sha256": "eacdbf816025c8f59c719646a792ea107690e739adfb5f83cad42179a9b1a9bf",
+      "source_lines": [
+        15,
+        15
+      ],
+      "extracted_symbol_sha256": "5e7ae718b48ef72b82080766561232d48e282ccc7504e7746294b0d849ded2d3",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "data.py",
+      "symbol": "REQUIRED_TOP_LEVEL",
+      "original_source": "redevelopment/20260910_self_only_crossdata/code/multirater_dataset.py",
+      "original_file_sha256": "eacdbf816025c8f59c719646a792ea107690e739adfb5f83cad42179a9b1a9bf",
+      "source_lines": [
+        16,
+        29
+      ],
+      "extracted_symbol_sha256": "3fbe87aca99002add2bde47b973b73ef3af0a50ff5e80ef3d008e7951dcf8fff",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "data.py",
+      "symbol": "REQUIRED_RECORD",
+      "original_source": "redevelopment/20260910_self_only_crossdata/code/multirater_dataset.py",
+      "original_file_sha256": "eacdbf816025c8f59c719646a792ea107690e739adfb5f83cad42179a9b1a9bf",
+      "source_lines": [
+        30,
+        42
+      ],
+      "extracted_symbol_sha256": "b6adc0326673b7f51d1cdb1ea7c02954e15f5970fefcd66568932ea2d0cbfc49",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "data.py",
+      "symbol": "MultiRaterManifestError",
+      "original_source": "redevelopment/20260910_self_only_crossdata/code/multirater_dataset.py",
+      "original_file_sha256": "eacdbf816025c8f59c719646a792ea107690e739adfb5f83cad42179a9b1a9bf",
+      "source_lines": [
+        45,
+        46
+      ],
+      "extracted_symbol_sha256": "6c473b30b5b0d0feed566809a45ae10960e3e65f24c012d4b5423063f2e36fad",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "data.py",
+      "symbol": "RaterCountBatchSampler",
+      "original_source": "redevelopment/20260910_self_only_crossdata/code/multirater_dataset.py",
+      "original_file_sha256": "eacdbf816025c8f59c719646a792ea107690e739adfb5f83cad42179a9b1a9bf",
+      "source_lines": [
+        49,
+        89
+      ],
+      "extracted_symbol_sha256": "a523a2332e586f28bf9a392cd0a6d722edacdd4fece7f3521bb237deb8d8c2e0",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "data.py",
+      "symbol": "collate_multirater_samples",
+      "original_source": "redevelopment/20260910_self_only_crossdata/code/multirater_dataset.py",
+      "original_file_sha256": "eacdbf816025c8f59c719646a792ea107690e739adfb5f83cad42179a9b1a9bf",
+      "source_lines": [
+        92,
+        115
+      ],
+      "extracted_symbol_sha256": "d1ce9d6c01966ae988311d8a341bd3dbeadb3c40d1aee27ef267212780899020",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "data.py",
+      "symbol": "_sha256",
+      "original_source": "redevelopment/20260910_self_only_crossdata/code/multirater_dataset.py",
+      "original_file_sha256": "eacdbf816025c8f59c719646a792ea107690e739adfb5f83cad42179a9b1a9bf",
+      "source_lines": [
+        118,
+        123
+      ],
+      "extracted_symbol_sha256": "8b18859958734b36ee7d81904dc319b3f51e83dc0990c870683a751d2ff70bba",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "data.py",
+      "symbol": "_is_sha256",
+      "original_source": "redevelopment/20260910_self_only_crossdata/code/multirater_dataset.py",
+      "original_file_sha256": "eacdbf816025c8f59c719646a792ea107690e739adfb5f83cad42179a9b1a9bf",
+      "source_lines": [
+        126,
+        129
+      ],
+      "extracted_symbol_sha256": "86d2e982114dd46d483a19f40ae6be653ab15fef49f956a17e2da365a4ee25f8",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "data.py",
+      "symbol": "_read_manifest",
+      "original_source": "redevelopment/20260910_self_only_crossdata/code/multirater_dataset.py",
+      "original_file_sha256": "eacdbf816025c8f59c719646a792ea107690e739adfb5f83cad42179a9b1a9bf",
+      "source_lines": [
+        132,
+        140
+      ],
+      "extracted_symbol_sha256": "0f1fc8505c1ddd5d4be559c501e32967fe644bcb7bdcc8c1f74c5ed8cf78ded9",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "data.py",
+      "symbol": "validate_multirater_manifest",
+      "original_source": "redevelopment/20260910_self_only_crossdata/code/multirater_dataset.py",
+      "original_file_sha256": "eacdbf816025c8f59c719646a792ea107690e739adfb5f83cad42179a9b1a9bf",
+      "source_lines": [
+        143,
+        248
+      ],
+      "extracted_symbol_sha256": "f680d8aac9cd30e24a1a783a9cd09a607c2115e0ce8d5e69fea33583699fdeed",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "data.py",
+      "symbol": "validate_disjoint_manifests",
+      "original_source": "redevelopment/20260910_self_only_crossdata/code/multirater_dataset.py",
+      "original_file_sha256": "eacdbf816025c8f59c719646a792ea107690e739adfb5f83cad42179a9b1a9bf",
+      "source_lines": [
+        251,
+        263
+      ],
+      "extracted_symbol_sha256": "6e1b9d621c57e183e22f1e4d7ab61ab5124069b2158d3aa715f32ffdaaed7d65",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "data.py",
+      "symbol": "resample_in_plane",
+      "original_source": "redevelopment/20260910_self_only_crossdata/code/multirater_dataset.py",
+      "original_file_sha256": "eacdbf816025c8f59c719646a792ea107690e739adfb5f83cad42179a9b1a9bf",
+      "source_lines": [
+        266,
+        290
+      ],
+      "extracted_symbol_sha256": "91034128b810f978a49ca2325e25ce0d2529e6fa31660a9f93f8e8e4c251f531",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "data.py",
+      "symbol": "MultiRaterDataset",
+      "original_source": "redevelopment/20260910_self_only_crossdata/code/multirater_dataset.py",
+      "original_file_sha256": "eacdbf816025c8f59c719646a792ea107690e739adfb5f83cad42179a9b1a9bf",
+      "source_lines": [
+        293,
+        332
+      ],
+      "extracted_symbol_sha256": "adfbb1223bbf8ce705de62f3535d1bec2a8b6ef6bda18dc1719c5d3ab45ab837",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "metrics.py",
+      "symbol": "aggregate_metric_rows",
+      "original_source": "redevelopment/20260910_self_only_crossdata/code/lidc_probunet_s1.py",
+      "original_file_sha256": "5b31fbc98c10da528ebc25ada60dbf08a59c1200e34f7256d6420fc4a0a8c02b",
+      "source_lines": [
+        106,
+        134
+      ],
+      "extracted_symbol_sha256": "87bb1c91138f0ca5a748cb314c937ea174d2d18d1d6b19858f5aabbcd636a455",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "volume_metrics.py",
+      "symbol": "_collect_volume_rows",
+      "original_source": "redevelopment/20260910_self_only_crossdata/code/npc170_volume_eval.py",
+      "original_file_sha256": "3cf0634a3b885d12269ce8b9c32e3dd99b907dfee8cdc7e6d6a106dfd9fddd4f",
+      "source_lines": [
+        129,
+        153
+      ],
+      "extracted_symbol_sha256": "bc6484377ee30aac979e95b81ec7b36441fa5c89641fb021c310858600a896e9",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "volume_metrics.py",
+      "symbol": "evaluate_persona_volume_loader",
+      "original_source": "redevelopment/20260910_self_only_crossdata/code/npc170_volume_eval.py",
+      "original_file_sha256": "3cf0634a3b885d12269ce8b9c32e3dd99b907dfee8cdc7e6d6a106dfd9fddd4f",
+      "source_lines": [
+        170,
+        190
+      ],
+      "extracted_symbol_sha256": "a8832f098b96f40b09d5dec410e928441411c66182c82369fa405c989753afff",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "augmentation.py",
+      "symbol": "_augment",
+      "original_source": "redevelopment/20260910_self_only_crossdata/code/riga_q2_probunet_s1.py",
+      "original_file_sha256": "3fc44315dd08e63653b0ffb90c5fa144f3081bf1b2837765c671cbc31b34d02b",
+      "source_lines": [
+        334,
+        358
+      ],
+      "extracted_symbol_sha256": "ec61c104dbafe82ee337a7252027294ce8f577ee4e0613206c47774f8ac4a1ea",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "npc_augmentation.py",
+      "symbol": "_probability",
+      "original_source": "redevelopment/20260910_self_only_crossdata/code/npc170_augment.py",
+      "original_file_sha256": "7bae092c5ac63547e666a8c2f2bae95e7a3dbf677b4f968417cac3f934a98ee4",
+      "source_lines": [
+        9,
+        13
+      ],
+      "extracted_symbol_sha256": "3ff3fc6fa773108620ee572130130b3a1af15675ce3de32efbf2d15c5de1a131",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "npc_augmentation.py",
+      "symbol": "npc170_training_augment",
+      "original_source": "redevelopment/20260910_self_only_crossdata/code/npc170_augment.py",
+      "original_file_sha256": "7bae092c5ac63547e666a8c2f2bae95e7a3dbf677b4f968417cac3f934a98ee4",
+      "source_lines": [
+        16,
+        71
+      ],
+      "extracted_symbol_sha256": "a0633472346049b85da0257f3ea83180a5294a88d26e54f058bbab78ba65537c",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "stage1.py",
+      "symbol": "_draw_from_distribution",
+      "original_source": "redevelopment/20260910_self_only_crossdata/code/dpersona_stage1_adapter.py",
+      "original_file_sha256": "6cbab5bf30c459d0d9f9c658bc2a2a08c1a4815d43c0c1fcd05405a06f46d2b8",
+      "source_lines": [
+        13,
+        21
+      ],
+      "extracted_symbol_sha256": "3ef80e2be29b4ea6970bc94f6e94fbbe59d3c9180fb5d3b49852ba74903e4daa",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "stage1.py",
+      "symbol": "DPersonaStage1Adapter",
+      "original_source": "redevelopment/20260910_self_only_crossdata/code/dpersona_stage1_adapter.py",
+      "original_file_sha256": "6cbab5bf30c459d0d9f9c658bc2a2a08c1a4815d43c0c1fcd05405a06f46d2b8",
+      "source_lines": [
+        24,
+        102
+      ],
+      "extracted_symbol_sha256": "05574ffd2c9631f5dcb411cb16784ae8b06bde38348ade2af0674b41012e5e67",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "stage1.py",
+      "symbol": "build_dpersona_stage1_adapter",
+      "original_source": "redevelopment/20260910_self_only_crossdata/code/dpersona_stage1_adapter.py",
+      "original_file_sha256": "6cbab5bf30c459d0d9f9c658bc2a2a08c1a4815d43c0c1fcd05405a06f46d2b8",
+      "source_lines": [
+        105,
+        142
+      ],
+      "extracted_symbol_sha256": "64e8c5db47bc414065567905671f728bd9e792356f57f04a0c2ae636266fc6a0",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "fingerprint.py",
+      "symbol": "state_dict_sha256",
+      "original_source": "redevelopment/20260910_self_only_crossdata/code/lidc_probunet_three_arm.py",
+      "original_file_sha256": "276425213c7150af32f676daa3a886e53b45c15cb913fc5f39f79b42965044aa",
+      "source_lines": [
+        347,
+        353
+      ],
+      "extracted_symbol_sha256": "7f7896344050015ad5407704acbcfd8d0f5ee47820c5ac88f76e438058a2516f",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "training.py",
+      "symbol": "_uses_graph",
+      "original_source": "redevelopment/20260910_self_only_crossdata/code/riga_q2_rg_persona_s1.py",
+      "original_file_sha256": "37d07a79d5e0a873de4eb96a5b172c6293a587020e4f22b95c99823753ff7b50",
+      "source_lines": [
+        41,
+        42
+      ],
+      "extracted_symbol_sha256": "f021efc5af527663dfd5bd61d63e9180e14bb545942411c232b10442691a6ae5",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "training.py",
+      "symbol": "_sha256",
+      "original_source": "redevelopment/20260910_self_only_crossdata/code/riga_q2_rg_persona_s1.py",
+      "original_file_sha256": "37d07a79d5e0a873de4eb96a5b172c6293a587020e4f22b95c99823753ff7b50",
+      "source_lines": [
+        45,
+        50
+      ],
+      "extracted_symbol_sha256": "8b18859958734b36ee7d81904dc319b3f51e83dc0990c870683a751d2ff70bba",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "training.py",
+      "symbol": "_write_json",
+      "original_source": "redevelopment/20260910_self_only_crossdata/code/riga_q2_rg_persona_s1.py",
+      "original_file_sha256": "37d07a79d5e0a873de4eb96a5b172c6293a587020e4f22b95c99823753ff7b50",
+      "source_lines": [
+        53,
+        57
+      ],
+      "extracted_symbol_sha256": "2981f16b7ccb14e402fb61973105693f689394cb529198e0d4e4dad9b18b9d08",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "training.py",
+      "symbol": "_write_jsonl",
+      "original_source": "redevelopment/20260910_self_only_crossdata/code/riga_q2_rg_persona_s1.py",
+      "original_file_sha256": "37d07a79d5e0a873de4eb96a5b172c6293a587020e4f22b95c99823753ff7b50",
+      "source_lines": [
+        60,
+        63
+      ],
+      "extracted_symbol_sha256": "b95e098f88f901746ffe702017627e472ae3e3c68cc17ff60c45adb2601cdfe5",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "training.py",
+      "symbol": "_make_loader",
+      "original_source": "redevelopment/20260910_self_only_crossdata/code/riga_q2_rg_persona_s1.py",
+      "original_file_sha256": "37d07a79d5e0a873de4eb96a5b172c6293a587020e4f22b95c99823753ff7b50",
+      "source_lines": [
+        75,
+        89
+      ],
+      "extracted_symbol_sha256": "c747c705434c28ecdd2f1b71f1e3ce0cb630f68eaab7898216ea634b1e34205c",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "training.py",
+      "symbol": "_build_model",
+      "original_source": "redevelopment/20260910_self_only_crossdata/code/riga_q2_rg_persona_s1.py",
+      "original_file_sha256": "37d07a79d5e0a873de4eb96a5b172c6293a587020e4f22b95c99823753ff7b50",
+      "source_lines": [
+        92,
+        108
+      ],
+      "extracted_symbol_sha256": "34f92a61c231bbb225633383b02fb42fb9ef26dbd250f8b97dba99003a289f4d",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "training.py",
+      "symbol": "_persona_dice",
+      "original_source": "redevelopment/20260910_self_only_crossdata/code/riga_q2_rg_persona_s1.py",
+      "original_file_sha256": "37d07a79d5e0a873de4eb96a5b172c6293a587020e4f22b95c99823753ff7b50",
+      "source_lines": [
+        140,
+        145
+      ],
+      "extracted_symbol_sha256": "58afe1018c1a0e4c96ab24e1a3089e639716af44e7bce520718f9a37f3efb76d",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "training.py",
+      "symbol": "evaluate_persona_loader",
+      "original_source": "redevelopment/20260910_self_only_crossdata/code/riga_q2_rg_persona_s1.py",
+      "original_file_sha256": "37d07a79d5e0a873de4eb96a5b172c6293a587020e4f22b95c99823753ff7b50",
+      "source_lines": [
+        148,
+        193
+      ],
+      "extracted_symbol_sha256": "a28d1ea0833a77f525ca33fc6a943774de023ac6b538ef0060ce0ef234acb8fb",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "training.py",
+      "symbol": "_compute_objective",
+      "original_source": "redevelopment/20260910_self_only_crossdata/code/riga_q2_rg_persona_s1.py",
+      "original_file_sha256": "37d07a79d5e0a873de4eb96a5b172c6293a587020e4f22b95c99823753ff7b50",
+      "source_lines": [
+        196,
+        219
+      ],
+      "extracted_symbol_sha256": "9699dc2610af9f1053e13cc1efec71676abda881b92b062bbe1faf0e13b7f595",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "training.py",
+      "symbol": "_train_epoch",
+      "original_source": "redevelopment/20260910_self_only_crossdata/code/riga_q2_rg_persona_s1.py",
+      "original_file_sha256": "37d07a79d5e0a873de4eb96a5b172c6293a587020e4f22b95c99823753ff7b50",
+      "source_lines": [
+        410,
+        471
+      ],
+      "extracted_symbol_sha256": "f249241a1cc4bc9d8b3cd4ce35e2589b0a83804354e3be0ea94997550fe6b0b5",
+      "computation": "verbatim"
+    },
+    {
+      "release_file": "training.py",
+      "symbol": "_run_arm",
+      "original_source": "redevelopment/20260910_self_only_crossdata/code/riga_q2_rg_persona_s1.py",
+      "original_file_sha256": "37d07a79d5e0a873de4eb96a5b172c6293a587020e4f22b95c99823753ff7b50",
+      "source_lines": [
+        474,
+        616
+      ],
+      "extracted_symbol_sha256": "2cd278028e91260ea5fb2ec57b9484375ee010ae9f2f7651f248e784df24f7fc",
+      "computation": "objective and optimization retained; source-macro selection output added",
+      "previous_extracted_symbol_sha256": "409fed14d1573f56956ea1eb832756b0e7c4d05777a77e60ed40fecdbc001a0a"
+    }
+  ],
+  "source_grouping": {
+    "release_file": "setsup_recal/source_metrics.py",
+    "source": "RIGA source-disjoint comparison evaluator",
+    "operations": [
+      "validate_split",
+      "source_macro"
+    ],
+    "original_file_sha256": "ef61bfc34d06d0f00783fea1d4974e4332da281f923bccba198c8e513606da24",
+    "computation": "verbatim functions; portable evaluator wrapper added"
+  }
+}

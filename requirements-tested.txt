@@ -1,0 +1,5 @@
+# CPU software-check environment; upstream reproduction uses its own dependencies.
+torch==2.5.1
+numpy==1.26.4
+torchvision==0.20.1
+Pillow==10.4.0
